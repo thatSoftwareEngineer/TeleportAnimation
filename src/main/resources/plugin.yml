@@ -1,0 +1,8 @@
+name: TeleportAnimation
+version: '${project.version}'
+main: me.htiman.teleportanimation.TeleportAnimation
+api-version: '1.20'
+
+commands:
+  camera:
+    description: ABCCCC
