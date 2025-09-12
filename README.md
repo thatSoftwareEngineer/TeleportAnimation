@@ -1,7 +1,7 @@
 # GTA-Style Teleport Animation (Utility)
 
 This is a simple **utility** you can copy into your Paper/Spigot plugin to add a cinematic, GTA-style teleport effect for players.
-It’s not a standalone plugin or full API — just a class you can reuse.
+It’s not a standalone plugin or full API just a class you can reuse.
 
 ---
 
@@ -64,3 +64,4 @@ Camera.CameraCommand.MoveCameraTask(
 * Add fade-to-black transitions.
 * Support `Player#setCamera` instead of Spectator mode (Paper 1.20.5+).
 * Configurable easing functions for different cinematic feels.
+
