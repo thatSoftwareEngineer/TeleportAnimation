@@ -1,7 +1,3 @@
-Got it — so instead of positioning it like a full plugin API, we should document it as a **utility class** that devs can drop straight into their plugin code. Here’s a **simplified README.md** that reflects that:
-
----
-
 # GTA-Style Teleport Animation (Utility)
 
 This is a simple **utility** you can copy into your Paper/Spigot plugin to add a cinematic, GTA-style teleport effect for players.
@@ -68,7 +64,3 @@ Camera.CameraCommand.MoveCameraTask(
 * Add fade-to-black transitions.
 * Support `Player#setCamera` instead of Spectator mode (Paper 1.20.5+).
 * Configurable easing functions for different cinematic feels.
-
----
-
-Do you want me to rewrite your `MoveCameraTask` into a **standalone `TeleportUtils.kt` file** with a single `fun cinematicTeleport(player, location)` entry point (no command code, just utility)? That would make it super clean to drop into any plugin.
